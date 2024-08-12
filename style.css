@@ -1,0 +1,361 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif; 
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Header section setting start */
+
+header {
+    background-color: #191970;
+    width: 100%;
+    height: auto;
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 5px 5px 5px rgb( 0, 0, 0, 0.05);
+}
+
+
+/* Header container sectionsetting start */
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    gap: 25%;
+}
+
+
+/* Logo bar setting start */
+.logo {
+    font-size: 20px;
+    font-weight: 100;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.logo span {
+    color: #FFA500;
+}
+
+.logo:hover {
+    color: #ff8c00;
+}
+
+/* Nav bar setting start */
+
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.navbar ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    cursor: pointer;
+}
+
+.navbar li{
+    font-size: 18px;
+    padding: 5px 8px;
+}
+
+.navbar li:hover {
+    border-bottom: 2px solid #ff8c00;
+    border-radius: 25%;
+    padding: 5px 8px;
+}
+
+
+/* Header section button Setting */
+
+button a {
+    text-decoration: none;
+    color: white;
+}
+
+button {
+    padding: 5px 10px;
+    background-color: transparent;
+    border: 2px solid whitesmoke;
+    cursor: pointer;
+}
+
+
+button a:hover {
+    color: #ff8c00;
+    transition: 0.5s;
+}
+
+
+/* ------------------- main section start Hero Section Start-------------- */
+.section-1 {
+    background-image: url(images/Header\ background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: auto;
+    color: white;
+}
+
+.container {
+    justify-content: center;   
+}
+
+.container h2 {
+    line-height: 35px;
+    padding: 15px 80px;
+    background-color: rgba(0, 0, 0, 0.441);
+    margin-top: 15%;
+}
+
+
+/* .section-1 button setting */
+
+.section-1 button {
+    background-color: #FFA500;
+    border: none;
+    padding: 20px 30px;
+    /* margin-left: 41%; */
+    transition: 0.5s;
+}
+
+.section-1 button:hover {
+    background-color: transparent;
+    border: 3px solid #ff8c00;
+    color: black;
+    transition: 0.5s;
+}
+
+.btn {
+    text-align: center;
+    margin-top: -2.5%;
+}
+
+/* section-2 setting start */
+
+.section-2 {
+    text-align: center;
+    padding-top: 7%;
+    padding-bottom: 5%;
+}
+
+.section-2 .text-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+    padding: 20px 0px;
+}
+
+.section-2 .text-section h3 {
+    font-weight: 500;
+}
+
+.section-2 .text-section hr {
+    display: inline;
+    margin-left: 10px;
+    color: black;
+    border: 1px solid black;
+}
+
+
+/* Section-2 card-images setting start */
+
+.card-images {
+    display: flex;
+    gap: 30px;
+    padding: 5px 40px;
+}
+
+.card-images img {
+    width: 100%;
+    height: auto;
+}
+
+.card-images h4 {
+    font-size: 20px;
+}
+
+.card-images .button {
+    padding-top: 10px;
+}
+
+.card-images button{
+    background-color: #FFA500;
+    padding: 15px 30px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.card-images button:hover {
+    background-color: #191970;
+    color: white;
+    border: 3px solid #FFA500;
+    transition: 0.5s;
+}
+
+/* scetion-3 start */
+
+.scetion-3 {
+    padding-top: 7%;
+    padding-bottom: 7%;
+}
+
+.scetion-3 h2 {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.about-card-section-start {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.about-card-section-start img {
+    width: 100%;
+    height: auto;
+    margin-left: 20%;
+}
+
+.about-card-section-start p {
+    justify-content: center;
+    text-align: left;
+    line-height: 30px;
+    margin-left: 20%;
+    margin-right: 20px;
+}
+
+.about-card-section-start button{
+    background-color: #FFA500;
+    padding: 15px 30px;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 5px;
+}
+
+.about-card-section-start button:hover {
+    background-color: #191970;
+    color: white;
+    border: 3px solid #FFA500;
+    transition: 0.5s;
+}
+
+
+/* Section-4 setting start */
+
+/* ------------------- main section start Hero Section Start-------------- */
+.section-4 {
+    background-image: url(images/Blog-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: auto;
+    color: white;
+}
+
+
+/* .section-4 button setting */
+
+.section-4 button {
+    background-color: #FFA500;
+    border: none;
+    padding: 20px 30px;
+    /* margin-left: 41%; */
+    transition: 0.5s;
+}
+
+.section-4 button:hover {
+    background-color: transparent;
+    border: 3px solid #ff8c00;
+    color: black;
+    transition: 0.5s;
+}
+
+.btn {
+    text-align: center;
+    margin-top: -2.5%;
+}
+
+
+/* footer-section setting start */
+
+.footer-section {
+    display: inline-flex;
+    gap: 90px;
+    padding: 30px;
+}
+
+.footer-section {
+    background-color: #191970;
+    color: white;
+    width: 100%;
+}
+
+.footer-section h3 {
+    padding-bottom: 5px;
+    cursor: pointer;
+}
+
+.footer-section h4 {
+    font-weight: 300;
+    padding: 5px 0;
+    cursor: pointer;
+}
+
+.footer-section .list-5 a {
+    text-decoration: none;
+}
+
+
+.footer-section .list-5 i {
+    font-size: 20px;
+    color: white;
+    list-style: none;
+    padding: 10px;
+}
+
+.footer-section .list-5 i:hover {
+    background-color: #ff8c00;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    transition: 0.5s;
+}
+
+
+/* bottom section setting start */
+
+
+.bottom {
+    background-color: #191970;
+    display: flex;
+    gap: 50%;
+    padding: 30px;
+    color: white;
+}
+
+.bottom h3 {
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.bottom .right-section {
+    display: flex;
+    gap: 20px;
+}
